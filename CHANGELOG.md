@@ -1,3 +1,9 @@
+# 1.6.1
+
+## Bug Fixes
+
+* Fixed NPE on null optional Map fields; they are written as empty ClickHouse maps. (https://github.com/ClickHouse/clickhouse-kafka-connect/issues/820)
+
 # 1.6.0, 2026-09-11
 
 ## Improvements
